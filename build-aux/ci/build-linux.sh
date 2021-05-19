@@ -4,6 +4,9 @@ set -x
 BUILDROOT="$(git rev-parse --show-toplevel)"
 
 pushd "$BUILDROOT" &>/dev/null
+  dpkg -L libfido2-dev
+  dpkg -L libcbor-dev
+  echo "${PKG_CONFIG_PATH}"
   pkg-config --list-all
   pkg-config --cflags libfido2
   pkg-config --libs libfido2
