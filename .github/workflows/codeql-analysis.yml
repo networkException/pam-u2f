@@ -34,7 +34,7 @@ jobs:
         sudo apt install -y libpam-dev asciidoc autoconf automake libtool \
           software-properties-common libssl-dev pkg-config gengetopt
         sudo apt-add-repository -u -y ppa:yubico/stable
-        sudo apt install -y libfido2-dev
+        sudo apt install -y libcbor-dev libfido2-dev
         ./autogen.sh
         ./configure --disable-man
         make

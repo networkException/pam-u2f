@@ -17,6 +17,7 @@ matrix:
             - gcc-7
             - gengetopt
             - help2man
+            - libcbor-dev
             - libfido2-dev
             - libpam-dev
             - libssl-dev
@@ -38,6 +39,7 @@ matrix:
             - gcc-8
             - gengetopt
             - help2man
+            - libcbor-dev
             - libfido2-dev
             - libpam-dev
             - libssl-dev
@@ -59,6 +61,7 @@ matrix:
             - gcc-9
             - gengetopt
             - help2man
+            - libcbor-dev
             - libfido2-dev
             - libpam-dev
             - libssl-dev
@@ -81,6 +84,7 @@ matrix:
             - clang-7
             - gengetopt
             - help2man
+            - libcbor-dev
             - libfido2-dev
             - libpam-dev
             - libssl-dev
@@ -103,6 +107,7 @@ matrix:
             - clang-8
             - gengetopt
             - help2man
+            - libcbor-dev
             - libfido2-dev
             - libpam-dev
             - libssl-dev
@@ -125,6 +130,7 @@ matrix:
             - gcc-7
             - gengetopt
             - help2man
+            - libcbor-dev
             - libfido2-dev
             - libpam-dev
             - libssl-dev
@@ -146,6 +152,7 @@ matrix:
             - gcc-8
             - gengetopt
             - help2man
+            - libcbor-dev
             - libfido2-dev
             - libpam-dev
             - libssl-dev
@@ -167,6 +174,7 @@ matrix:
             - gcc-9
             - gengetopt
             - help2man
+            - libcbor-dev
             - libfido2-dev
             - libpam-dev
             - libssl-dev
@@ -190,6 +198,7 @@ matrix:
             - clang-7
             - gengetopt
             - help2man
+            - libcbor-dev
             - libfido2-dev
             - libpam-dev
             - libssl-dev
@@ -213,6 +222,7 @@ matrix:
             - clang-8
             - gengetopt
             - help2man
+            - libcbor-dev
             - libfido2-dev
             - libpam-dev
             - libssl-dev
